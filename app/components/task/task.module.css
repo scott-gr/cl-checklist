@@ -1,0 +1,38 @@
+.taskContainer {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr 1fr 1fr;
+  position: relative;
+}
+
+.taskContainer:nth-child(even){
+  background: var(--aliceBlue);
+}
+
+.taskContainer * {
+  padding: 0;
+  margin: var(--s-5);
+}
+.taskContainer a {
+  text-align: center;
+  font-weight: bold;
+}
+
+.taskContainer p {
+  padding: var(--s-3)
+}
+
+.taskContainer p.noAction {
+  text-align: center;
+}
+
+select.disable {
+  background-color: var(--dimGray);
+}
+
+.alert {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 50%;
+  transform: translate(-50%, -50%);
+}
+

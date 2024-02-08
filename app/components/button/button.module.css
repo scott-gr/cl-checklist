@@ -1,0 +1,13 @@
+button.basicButton {
+  height: var(--s5);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 6px 9px -5px rgba(102, 102, 102, 1);
+  text-shadow: 0px 1px 0px rgba(102, 102, 102, 0);
+  background: var(--goldOrange);
+  color: var(--white);
+  font-family: var(--font-montserrat);
+  font-weight: bold;
+  font-size: var(--s1);
+
+}
