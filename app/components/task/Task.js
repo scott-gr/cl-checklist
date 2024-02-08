@@ -4,7 +4,7 @@ import styles from './task.module.css'
 export default function Task({description, action, staff}){
 
   const assigneeOptions = staff.map(person => {
-    return <option value={person}>{person}</option>
+    return <option key={person.id} value={person}>{person}</option>
     })
 
   return (
